@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gestalt Laws - Neon UI</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="progress-header">
+        <span>Completion</span>
+        <span id="progress-text">0%</span>
+    </div>
+
+    <div class="progress-track">
+        <div id="progress-fill" class="progress-fill"></div>
+    </div>
+
+    <div class="main-container">
+        <div class="sidebar" id="menu-container"></div>
+
+        <div class="content-area">
+            <div id="text-wrapper" class="text-content">
+                <h1 id="law-title">Select a Concept</h1>
+                <p id="law-desc">Click a Gestalt law to begin.</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="controls">
+        <button class="reset-btn" onclick="resetAll()">Reset Progress</button>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
