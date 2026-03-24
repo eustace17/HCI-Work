@@ -1,2 +1,6 @@
 # HCI-Work
 All tasks in this class
+
+This web application was developed for ICS 2402 Human Computer Interaction to practically demonstrate the concept of Direct Manipulation. The interface allows users to learn about Gestalt principles of visual perception by interacting with a custom-built, responsive UI.HCI Principles Applied:
+* Incremental Action & Rapid Feedback: Clicking a menu item provides instant, multi-sensory feedback. The menu item highlights, the background glow adapts to a specific color code, and the definition updates instantly without requiring a page reload.Visibility of System Status: A persistent progress bar at the top of the screen calculates and visually displays the percentage of laws the user has viewed.
+* Memory Offloading (Checkmarks): To support the user's memory and attention, I added visual checkmarks (✓) that appear next to laws that have already been read. This relieves the user from having to maintain a mental model of their past actions.Aesthetic and Minimalist Design: The application uses a dark theme with neon accents to create high contrast, making the text highly readable and the interactive elements unmistakably clear. Smooth CSS transitions were used to prevent jarring visual changes when swapping text.User Control: A "Reset Progress" button was included to give the user freedom to restart their learning path.
